@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://3e8r7o43kbcu"]
+[gd_scene load_steps=2 format=3 uid="uid://3e8r7o43kbcu"]
+
+[ext_resource type="Script" path="res://addons/atirut.console/console.gd" id="1_ubdb7"]
 
 [node name="console" type="PanelContainer"]
 process_mode = 3
@@ -7,3 +9,4 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_ubdb7")
